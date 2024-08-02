@@ -1,0 +1,136 @@
+:root{
+    --main-color : #0075ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma, Arial;
+}
+.container{
+    margin: 30px auto;
+    width: fit-content;
+    background-color: #f8f8f8;
+    padding: 20px 30px;
+}
+.container .info{
+    display: flex;
+    gap: 300px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px 15px;
+    font-size: 1.3rem;
+}
+.container .info span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.container .quiz-area{
+    background-color: #fff;
+    padding: 20px 15px;
+    margin: 20px 0;
+    line-height: 2;
+}
+.container .answers-area{
+    background-color: #fff;
+}
+.container .answers-area .answer{
+    padding: 20px 15px;
+    transition: .3s;
+}
+.container .answers-area .answer input[type = "Radio"]:checked + label{
+    color: var(--main-color);
+}
+.container .answers-area .answer:hover{
+    background-color: #eee;
+}
+.container .answers-area .wrong-answer{
+    background-color: rgba(255, 0, 0, 0.732);
+    color: #fff;
+}
+.container .answers-area .wrong-answer label{
+    color: #fff;
+}
+.container .answers-area .right-answer{
+    background-color: rgba(0, 128, 0, 0.696);
+    color: #fff;
+}
+.container .answers-area .answer:not(:first-child){
+    border-top: 1px solid #dfdfdf;
+}
+.container .answers-area .answer label{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container .bulllets{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .bulllets .spans{
+    flex: 1;
+    display: flex;
+}
+.container .bulllets .spans span{
+    width: 20px;
+    height: 20px;
+    background-color: #dfdfdf;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.container .bulllets .spans span.completed{
+    background-color: var(--main-color);
+}
+.container .bulllets .spans span.active{
+    background-color: #009688;
+}
+.container .bulllets .countdown{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: red;
+}
+.container #submit-button{
+    background-color: var(--main-color);
+    display: block;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 30%;
+    margin: 30px auto 0;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.container #submit-button:hover{
+    background-color: #006ce8;
+}
+.container .result{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    display: none;
+    font-size: 1.4rem;
+}
+.container .result span{
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.container .result span.bad{
+    color: #dc0a0a;
+}
+.container .result span.good{
+    color: #009688;
+}
+.container .result span.perfect{
+    color: var(--main-color);
+}

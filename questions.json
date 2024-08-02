@@ -1,0 +1,115 @@
+[
+    {
+        "title" : "What does HTML stand for?",
+        "category" : "html",
+        "answer-1" : "HyperText Markup Language",
+        "answer-2" : "HotMail",
+        "answer-3" : "How to Make Lasagna",
+        "right-answer" : "HyperText Markup Language"
+    },
+    {
+        "title" : "How many tags are in a regular HTML element?",
+        "category" : "html",
+        "answer-1" : "2",
+        "answer-2" : "3",
+        "answer-3" : "1",
+        "right-answer" : "2"
+    },
+    {
+        "title" : "What is the difference between an opening tag and a closing tag?",
+        "category" : "html",
+        "answer-1" : "Opening tag has a / in front.",
+        "answer-2" : "Closing tag has a / in front.",
+        "answer-3" : "There is no difference.",
+        "right-answer" : "Closing tag has a / in front."
+    },
+    {
+        "title" : "Where do all items for the same website need to be saved?",
+        "category" : "html",
+        "answer-1" : "In the same folder",
+        "answer-2" : "Where ever is fine",
+        "answer-3" : "In different folders",
+        "right-answer" : "In the same folder"
+    },
+    {
+        "title" : "What does CSS stand for?",
+        "category" : "css",
+        "answer-1" : "Creative Style Sheets",
+        "answer-2" : "Computer Style Sheets",
+        "answer-3" : "Cascading Style Sheets",
+        "answer-4" : "Colorful Style Sheets",
+        "right-answer" : "Creative Style Sheets"
+    },
+    {
+        "title" : "Which CSS property is used for changing the text color of an element?",
+        "category" : "css",
+        "answer-1" : "font-color",
+        "answer-2" : "color",
+        "answer-3" : "textColor",
+        "answer-4" : "text-color",
+        "right-answer" : "color"
+    },
+    {
+        "title" : "In CSS, what is the default value of the position property?",
+        "category" : "css",
+        "answer-1" : "relative",
+        "answer-2" : "fixed",
+        "answer-3" : "absolute",
+        "answer-4" : "static",
+        "right-answer" : "static"
+    },
+    {
+        "title" : "Which CSS property is used to control the spacing between lines of text?",
+        "category" : "css",
+        "answer-1" : "spacing",
+        "answer-2" : "line-height",
+        "answer-3" : "lline-height",
+        "answer-4" : "text-spacing",
+        "right-answer" : "line-height"
+    },
+    {
+        "title" : "What is the purpose of the CSS margin property?",
+        "category" : "css",
+        "answer-1" : "To set the border thickness",
+        "answer-2" : "To control the space outside the border",
+        "answer-3" : "To define the padding of an element",
+        "answer-4" : "To change the element's font size",
+        "right-answer" : "To control the space outside the border"
+    },
+    {
+        "title" : "How long is cool_secret accessible? , sessionStorage.setItem('cool_secret', 123);",
+        "category" : "javascript",
+        "answer-1" : "forever, the data does not get lose",
+        "answer-2" : "when the user close the tab",
+        "answer-3" : "when the user close the entire browser",
+        "answer-4" : "when the user shut off their computer",
+        "right-answer" : "when the user close the tab"
+    },
+    {
+        "title" : "Inside which HTML element do we put the JavaScript?",
+        "category" : "javascript",
+        "answer-1" : "<javascript>",
+        "answer-2" : "<script>",
+        "answer-3" : "<js>",
+        "answer-4" : "<scripting>",
+        "right-answer" : "<script>"
+    },
+    {
+        "title" : "How many ways are there with which we can declare a variable in javascript?",
+        "category" : "javascript",
+        "answer-1" : "Only one",
+        "answer-2" : "Three",
+        "answer-3" : "Infinitely many",
+        "answer-4" : "None of the above",
+        "right-answer" : "Three"
+    },
+    {
+        "title" : "What will be the output of the following code?  <script> document.write(typeof( '1' + 2)); </script >",
+        "category" : "javascript",
+        "answer-1" : "boolean",
+        "answer-2" : "number",
+        "answer-3" : "string",
+        "answer-4" : "None of the above",
+        "right-answer" : "string"
+    }
+]
